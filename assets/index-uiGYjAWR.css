@@ -109,3 +109,17 @@
     font-size: clamp(10px, 2.8vw, 12px);
   }
 }
+
+
+/* Tinggikan kotak Keputusan Cabutan */
+.audience-feature {
+  height: 320px !important;
+  min-height: 320px !important;
+}
+
+@media (max-width: 700px) {
+  .audience-feature {
+    height: 260px !important;
+    min-height: 260px !important;
+  }
+}

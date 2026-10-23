@@ -123,3 +123,16 @@
     min-height: 260px !important;
   }
 }
+
+
+/* Besarkan nama pemenang terkini */
+.audience-feature .feature-content h2 {
+  font-size: clamp(56px, 7vw, 100px) !important;
+  line-height: 1.05 !important;
+}
+
+@media (max-width: 700px) {
+  .audience-feature .feature-content h2 {
+    font-size: clamp(42px, 10vw, 68px) !important;
+  }
+}

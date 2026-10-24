@@ -134,3 +134,17 @@
     font-size: clamp(42px, 10vw, 68px) !important;
   }
 }
+
+
+/* Besarkan nombor peserta semasa cabutan VIP */
+#view-root .draw-panel .draw-name {
+  font-size: clamp(3.5rem, 8vw, 6rem) !important;
+  line-height: 1.1 !important;
+  font-weight: 900 !important;
+}
+
+@media (max-width: 700px) {
+  #view-root .draw-panel .draw-name {
+    font-size: clamp(2.8rem, 12vw, 4.5rem) !important;
+  }
+}
